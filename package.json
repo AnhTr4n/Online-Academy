@@ -1,0 +1,23 @@
+{
+  "name": "online-academy",
+  "version": "1.0.0",
+  "description": "Full Stack Web Application Using React, Spring Boot and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnhTr4n/Online-Academy.git"
+  },
+  "author": "Anh Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnhTr4n/Online-Academy/issues"
+  },
+  "homepage": "https://github.com/AnhTr4n/Online-Academy#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
